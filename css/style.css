@@ -20,7 +20,7 @@ body {
 }
 
 #construction {
-  width: auto;
+  width: 30vh;
   height: auto;
   background-image: url(.../images/construction.gif);
 }
