@@ -1,6 +1,17 @@
+:root {
+  color-scheme: light dark;
+  --light-background: white;
+  --light-color: black;
+  --dark-background: black;
+  --dark-color: white;
+}
+
+* {
+  background-color: light-dark(var(--light-background), var(--dark-background));
+  color: light-dark(var(--light-color), var(--dark-color));
+}
+
 body {
-  background-color: black;
-  color: white;
   font-family: helvetica;
   text-align:center;
   align-content:center;
